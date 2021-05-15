@@ -1,0 +1,14 @@
++ .hushlogin
++ .gitconfig
++ .gitignore_global
++ .zshrc
++ .zsh/***
+
+- .oh-my-zsh/custom/example.zsh
+- .oh-my-zsh/custom/plugins/example/
+- .oh-my-zsh/custom/themes/example.zsh-theme
++ .oh-my-zsh/
++ .oh-my-zsh/custom/
++ .oh-my-zsh/custom/***
+
+- *
