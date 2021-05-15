@@ -1,0 +1,9 @@
+- .DS_Store
+- .git/
+- .gitignore
+- install.sh
+- install-list.txt
+- LICENSE
+- README.md
+- update.sh
+- update-list.txt
