@@ -1,7 +1,7 @@
 [include]
   	# For credentials and other private configs
-  	path = $HOME/.gitconfig_local
+  	path = ~/.gitconfig_local
 [commit]
 	gpgSign = true
 [core]
-  	excludesfile = $HOME/.gitignore_global
+  	excludesfile = ~/.gitignore_global
