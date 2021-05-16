@@ -1,6 +1,8 @@
 + .hushlogin
 + .gitconfig
 + .gitignore_global
++ .gnupg/
++ .gnupg/gpg-agent.conf
 + .zshrc
 + .zsh/***
 
