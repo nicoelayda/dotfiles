@@ -3,6 +3,7 @@
   	path = ~/.gitconfig_local
 [alias]
 	undo = reset --soft HEAD^
+	resign = rebase --exec 'git commit --amend --no-edit -n -S' -i
 [commit]
 	gpgSign = true
 [core]
