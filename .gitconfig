@@ -1,6 +1,8 @@
 [include]
   	# For credentials and other private configs
   	path = ~/.gitconfig_local
+[alias]
+	undo = reset --soft HEAD^
 [commit]
 	gpgSign = true
 [core]
