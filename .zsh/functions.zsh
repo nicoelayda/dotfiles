@@ -7,7 +7,7 @@ function zsh {
             *)
                 local MODULE_PATH="$HOME/.zsh/$1.zsh"
                 if [[ -f "$MODULE_PATH" ]]; then
-                    $EDITOR "$MODULE_PATHzsh"
+                    $EDITOR "$MODULE_PATH"
                 else
                     echo "ZSH module '$1 not found."
                 fi
