@@ -31,3 +31,7 @@ function zsh {
 
     unfunction config
 }
+
+function unquarantine {
+    xattr -d com.apple.quarantine $@
+}
