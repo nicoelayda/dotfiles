@@ -43,5 +43,8 @@ ZSH_MODULES="$HOME/.zsh"
 # Aliases
 [[ ! -f "$ZSH_MODULES/aliases.zsh" ]] || source "$ZSH_MODULES/aliases.zsh"
 
+# Functions
+[[ ! -f "$ZSH_MODULES/functions.zsh" ]] || source "$ZSH_MODULES/functions.zsh"
+
 # Powerlevel10k (https://github.com/romkatv/powerlevel10k)
 [[ ! -f "$ZSH_MODULES/p10k.zsh" ]] || source "$ZSH_MODULES/p10k.zsh"
