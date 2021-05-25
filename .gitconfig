@@ -7,4 +7,5 @@
 [commit]
 	gpgSign = true
 [core]
+	editor = nano
   	excludesfile = ~/.gitignore_global
