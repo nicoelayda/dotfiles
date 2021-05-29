@@ -38,6 +38,12 @@ ZSH_AUTOSUGGESTIONS="$(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggesti
 # rbenv (https://github.com/rbenv/rbenv)
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
+# pyenv (https://github.com/pyenv/pyenv)
+if which pyenv > /dev/null; then
+  eval "$(pyenv init --path)"; 
+  eval "$(pyenv init -)"; 
+fi
+
 ZSH_MODULES="$HOME/.zsh"
 
 # Aliases
