@@ -5,6 +5,7 @@
 + .gnupg/gpg-agent.conf
 + .zshrc
 + .zsh/***
++ Brewfile
 
 - .oh-my-zsh/custom/example.zsh
 - .oh-my-zsh/custom/plugins/example/
