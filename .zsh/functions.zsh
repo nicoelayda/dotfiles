@@ -35,3 +35,17 @@ function zsh {
 function unquarantine {
     xattr -d com.apple.quarantine $@
 }
+
+# encode base 64 string
+function b64encode() {
+    b64string=$(echo -n "$@" | base64)
+    echo -n $b64string | pbcopy
+    echo "Copied to clipboard"
+}
+
+# decode base 64 string
+function b64decode() {
+    plaintext=$(echo -n "$@" | base64 -d)
+    echo -n $plaintext | pbcopy
+    echo "Copied to clipboard"
+}
